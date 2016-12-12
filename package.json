@@ -1,0 +1,30 @@
+{
+  "name": "electron-sleep-timer",
+  "version": "0.1.0",
+  "description": "sleep timer using electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/carly-lee/electron-sleep-timer.git",
+  "keywords": [
+    "electron",
+    "timer"
+  ],
+  "author": "Carly Lee",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/carly-lee/electron-sleep-timer/issues"
+  },
+  "homepage": "https://github.com/carly-lee/electron-sleep-timer#readme",
+  "devDependencies": {
+    "babel-preset-electron": "^0.37.8",
+    "bootstrap": "^3.3.7",
+    "electron": "^1.4.11"
+  },
+  "babel": {
+    "presets": [
+      "electron"
+    ]
+  }
+}

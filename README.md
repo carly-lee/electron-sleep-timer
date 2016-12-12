@@ -1,2 +1,2 @@
-# sleep-timer
+# Sleep Timer
 Electron app

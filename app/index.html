@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sleep Timer</title>
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="./app.js"></script>
+  </head>
+  <body>
+    <h1>SLEEP TIMER</h1>
+    <form>
+      <div class="form-group">
+        <label>Select duration :</label>
+        <select id="durationSelect" name="duration" class="form-control" onchange="onChangeDuration()">
+          <option value="15">15 mins</option>
+          <option value="30">30 mins</option>
+          <option value="60">1 hour</option>
+          <option value="120">2 hours</option>
+          <option value="0">Input manual time</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Input duration in minutes.</label>
+        <input type="text" name="duration" class="form-control manualTime">
+      </div>
+      <button type="submit" class="btn btn-success btn-lg btn-block start">Start</button>
+    </form>
+    <button class="btn btn-danger btn-lg btn-block cancel">Cancel</button>
+  </body>
+</html>
