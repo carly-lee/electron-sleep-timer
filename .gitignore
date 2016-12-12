@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -43,3 +44,6 @@ main.js
 main.js.map
 
 .idea
+=======
+node_modules
+>>>>>>> 47c8398250f20eae91076b5d37b65bff0a4b9344
