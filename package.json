@@ -68,18 +68,15 @@
   "bin": {
     "electron": "./node_modules/.bin/electron"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
-  },
+  "repository": "https://github.com/carly-lee/electron-sleep-timer.git",
   "author": {
-    "name": "C. T. Lin",
-    "email": "chentsulin@gmail.com",
-    "url": "https://github.com/chentsulin"
+    "name": "Carly Lee",
+    "email": "carly.l86@gmail.com",
+    "url": "https://github.com/carly-lee"
   },
-  "license": "MIT",
+  "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    "url": "https://github.com/carly-lee/electron-sleep-timer/issues"
   },
   "keywords": [
     "electron",
@@ -90,7 +87,7 @@
     "webpack",
     "react-hot"
   ],
-  "homepage": "https://github.com/chentsulin/electron-react-boilerplate#readme",
+  "homepage": "https://github.com/carly-lee/electron-sleep-timer#readme",
   "devDependencies": {
     "asar": "^0.12.3",
     "babel-core": "^6.20.0",
@@ -154,6 +151,7 @@
     "webpack-validator": "^2.2.11"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "electron-debug": "^1.1.0",
     "font-awesome": "^4.7.0",
     "react": "^15.4.1",
