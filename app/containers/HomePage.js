@@ -13,7 +13,6 @@ export class HomePage extends Component {
 
   _onSubmit = (event)=>{
     event.preventDefault();
-    console.log( '_onSubmit:' );
     this.props.push('/timer');
   }
 
@@ -42,7 +41,7 @@ export class HomePage extends Component {
             <FormControl id="hour" name="hour" type="number" label="Hour" placeholder="0" onChange={this._onChange} />
             <FormControl id="mins" name="mins" type="number" label="Minutes" placeholder="0" onChange={this._onChange} />
           </FormGroup>
-          <Button type="submit">Start</Button>
+          <Button type="submit" bsStyle="success" bsSize="large" block>Start</Button>
         </form>
       </div>
     );
